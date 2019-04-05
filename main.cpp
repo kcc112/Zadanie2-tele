@@ -6,7 +6,7 @@
 using namespace std;
 
 HANDLE deviceHandle; // A handle to the device for example a file.(handle can be anything from an integer index to a pointer to a resource in kernel space)
-LPCTSTR portName;  // Porn name for example COM3.(LPCSTR = constant char*)
+LPCTSTR portName;  // Port name for example COM3.(LPCSTR = constant char*)
 DCB dcb; // Defines the control setting for a serial communications device
 COMMTIMEOUTS commtimeouts; // Contains the time-out parameters for a communications device. The parameters determine the behavior of ReadFile, WriteFile, ReadFileEx, and WriteFileEx operations on the device
 
